@@ -1,0 +1,43 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    position: relative;
+    scroll-snap-align: start;
+    cursor: pointer;
+}
+
+.flag-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.flag {
+    width: 100px;
+    height: 50px;
+    transition: transform 0.5s;
+}
+
+.flag:hover {
+    transform: scale(1.1);
+}
+
+.dropdown-flag {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
