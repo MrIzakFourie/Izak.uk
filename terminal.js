@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             processCommand(command);
             updateCursor();
         } else if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-            setTimeout(updateCursor, 0); // Defer to ensure the cursor position is updated after keydown event
+            setTimeout(updateCursor, 0);
         }
     }
 
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		response = 'Available fun commands:\n- incorrect: the ICT Technican\'s worst nightmare\n- tos: An average experience with most Terms of Service pages out there';
 		break;
             default:
-                response = `Error: command not found: ${command}`;
+                response = `Error: command not found: ${command}. Try Using "Help"`;
                 isError = true;
                 break;
         }
