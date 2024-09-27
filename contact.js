@@ -2,7 +2,7 @@ window.onload = function() {
     var contactWindow = document.getElementById('main');
     var contactText = document.getElementById('contact');
     var contactBack = document.getElementById('return');
-    var goBackButton = document.getElementById('redbutton');
+    var goBackButton = document.getElementById('stylisticButton');
 
     // Animate the div window thingy
     contactWindow.style.opacity = 1;
