@@ -1,7 +1,7 @@
 window.onload = function() {
     var contactWindow = document.getElementById('main');
     var contactText = document.getElementById('contact');
-    var contactBack = document.getElementById('Back');
+    var contactBack = document.getElementById('return');
     var goBackButton = document.getElementById('rebutton');
 
     // Animate the div window thingy
