@@ -1,8 +1,8 @@
 window.onload = function() {
-    var contactWindow = document.getElementById('contact-window');
-    var contactText = document.getElementById('contact-text');
+    var contactWindow = document.getElementById('main');
+    var contactText = document.getElementById('contact');
     var contactBack = document.getElementById('Back');
-    var goBackButton = document.getElementById('go-back-button');
+    var goBackButton = document.getElementById('rebutton');
 
     // Animate the div window thingy
     contactWindow.style.opacity = 1;
