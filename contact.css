@@ -39,7 +39,7 @@ body {
     transition: opacity 1s 1s, transform 1s 1s;
 }
 
-#Back {
+#return {
     opacity: 0;
     transform: translateX(-50px);
     transition: transform 1s 1s, opacity 1s 1s;
