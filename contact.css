@@ -18,7 +18,6 @@ body {
     opacity: 0;
     transform: translateY(-100%);
     transition: transform 1s, opacity 1s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #contact {
