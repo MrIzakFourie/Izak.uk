@@ -3,9 +3,9 @@ body, html {
     margin: 0;
     height: 100%;
     background: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    scroll-snap-type: y mandatory;
+    color: #FFE2A9; <!-- The business card colours are in this, so I ADAPT-->
+    font-family: Arial;
+    scroll-snap-type: y mandatory; <!-- Allows the website to snap -->"
 }
 
 .section {
